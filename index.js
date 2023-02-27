@@ -1,7 +1,12 @@
-const chrt = require("./lineChart");
-function isStr(str) {
-  console.log(typeof str === "string");
-  chrt("passed to chrt");
+const lineChrt = require("./lineChart");
+const barChrt = require("./barChart");
+
+function lineChart(props) {
+  lineChrt(props);
 }
 
-module.exports = isStr;
+function barChart(props) {
+  barChrt(props);
+}
+
+module.exports = { lineChart, barChart };

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gkchavhan1998/react-charts/issues"
   },
-  "homepage": "https://github.com/gkchavhan1998/react-charts#readme"
+  "homepage": "https://github.com/gkchavhan1998/react-charts#readme",
+  "dependencies": {
+    "recharts": "^2.4.3"
+  }
 }
